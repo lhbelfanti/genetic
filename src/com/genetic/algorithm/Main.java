@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * This program defines a Genetic Algorithm to reach the TARGET_CHROMOSOME {1,1,0,1,0,0,1,1,1,0}
  * starting off randomly generated populations.
+ *
+ * @author Lucas Belfanti
  */
 public class Main {
 
@@ -12,7 +14,7 @@ public class Main {
 
         int generationNumber = 0;
 
-        //The fist population is created
+        //The first population is created
         Population population = new Population(GeneticAlgorithm.POPULATION_SIZE).initializePopulation();
 
         printGenerationNumber(generationNumber, population);

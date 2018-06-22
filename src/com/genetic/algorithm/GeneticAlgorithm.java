@@ -4,6 +4,8 @@ package com.genetic.algorithm;
  * This class contains the necessaries methods to create a Genetic
  * Algorithm. It has the methods to evolve, mutate and crossover
  * chromosomes and populations.
+ *
+ * @author Lucas Belfanti
  */
 public class GeneticAlgorithm {
 

@@ -7,6 +7,8 @@ import java.util.Arrays;
  * It has a set of properties (genes) which can be mutated and altered.
  * It also has a fitness property which indicates how 'fit' each potential
  * solution is.
+ *
+ * @author Lucas Belfanti
  */
 public class Chromosome implements Comparable<Chromosome>{
 
