@@ -1,16 +1,14 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="media/genetic-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="media/genetic-light.png">
-    <img alt="Genetic - Genetic algorithm implementation written in Java." src="media/genetic-dark.png">
-  </picture>
+<p align="center">
+  <img src="media/genetic-logo.png" width="100" alt="Repository logo" />
+</p>
+<h3 align="center">Genetic</h3>
+<p align="center">Genetic algorithm implementation written in Java<p>
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/lhbelfanti/genetic?label=Repo%20size" alt="Repo size" />
+    <img src="https://img.shields.io/github/license/lhbelfanti/genetic?label=License" alt="License" />
+</p>
 
-  <br />
-
-  ![GitHub repo size](https://img.shields.io/github/repo-size/lhbelfanti/genetic?style=for-the-badge)
-  ![License](https://img.shields.io/github/license/lhbelfanti/genetic?style=for-the-badge)
-</div>
-
+---
 # Genetic Algorithm
 
 This is an implmentation of my first generic algorithm.
@@ -19,3 +17,8 @@ Starting off a randomly generated population it will try to reach the target chr
 Each population has 8 chromosomes and each chromosome has 10 genes (because of the genes of the target chromosome).
 
 The target chromosome and the population size can be modified on the GeneticAlgorithm class.
+
+---
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
